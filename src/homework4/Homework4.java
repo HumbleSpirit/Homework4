@@ -16,10 +16,7 @@ public class Homework4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        final double pound = 0.4059;   
-        double pounds_in_kilo = 0;
-        pounds_in_kilo = 1/pound;
-        System.out.println(pounds_in_kilo);
+ 
     }
     
 }
