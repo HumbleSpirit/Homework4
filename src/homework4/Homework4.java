@@ -109,6 +109,20 @@ public class Homework4 {
                 
         }
         drawStars();*/
+        
+        System.out.println("Task 4");
+        System.out.println("Check, if number is belongs to defined range");
+        System.out.println("Please enter number");
+        firstValue = in.nextInt(); 
+        
+        if (firstValue > 1 && firstValue < 30) 
+        { 
+            System.out.println("Value is belong to defined range");
+        } 
+        else 
+        { 
+            System.out.println("Value is not belong to defined range");
+        }
     }
     
 }
