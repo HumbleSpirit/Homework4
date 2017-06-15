@@ -191,14 +191,13 @@ public class Homework4 {
                                 {
                                     System.out.println("Entered day is Saturday");
                                 }
-        drawStars();*/
+        drawStars();
         
         
         System.out.println("Task 8");  
         System.out.println("Let's find - do you have a lucky ticket");  
         System.out.println("Please input line of 6 digits from your ticket ");
-        Scanner inp = new Scanner(System.in);  
-        myString = inp.nextLine();
+        myString = in.nextLine();
         //Парсинг строки в числа по позициям - '0' - код символа, равный 48
         int a = myString.charAt(0)- '0';
         int b = myString.charAt(1)- '0';
@@ -216,8 +215,13 @@ public class Homework4 {
             else {
                 System.out.println("Your ticket is not lucky");
         }
-        drawStars();
-       
+        drawStars();*/
+        
+        System.out.println("Task 9");  
+        System.out.println("Let's find which playing card number is entered");  
+        System.out.println("Please input number from 0 to 36");
+        firstValue = in.nextInt();
+        if (36 - firstValue <= 27)
   
   
 }  
