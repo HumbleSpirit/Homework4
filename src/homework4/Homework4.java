@@ -32,6 +32,10 @@ public class Homework4 {
         int firstValue = 0;
         int secondValue = 0;
         int thirdValue = 0;
+        int fourthValue = 0;
+        int fifthValue = 0;
+        int sixthValue = 0;
+        int tempValue1 = 0;
         double calcValue1 = 0;
         double calcValue2 = 0;
         double result1 = 0;
@@ -108,7 +112,7 @@ public class Homework4 {
                 break;
                 
         }
-        drawStars();*/
+        drawStars();
         
         System.out.println("Task 4");
         System.out.println("Check, if number is belongs to defined range");
@@ -123,6 +127,47 @@ public class Homework4 {
         { 
             System.out.println("Value is not belong to defined range");
         }
-    }
+        drawStars();
+        
+        
+        System.out.println("Task 5");
+        System.out.println("Check, if entered number is even or odd");
+        System.out.println("Please enter number");
+        firstValue = in.nextInt(); 
+        System.out.println((firstValue % 2 == 0) ? ("Entered number is even") : ("Entered number is odd"));
+        
+        drawStars();
+        
+        System.out.println("Task 6");
+        System.out.println("Check, if entered, five-digit number is palindrome");
+        System.out.println("Please enter number");
+        firstValue = in.nextInt(); 
+        
+        secondValue = firstValue / 10000;
+        thirdValue = firstValue / 1000 % 10;
+        fourthValue = firstValue % 1000 / 100 % 10;
+        fifthValue = firstValue % 10000 % 1000 % 100 / 10;
+        sixthValue = firstValue % 10000 % 1000 % 100 % 10;
+        if (secondValue == sixthValue && thirdValue == fifthValue)
+        {
+          System.out.printf("%d is a palindrome \n", firstValue);
+        }
+        else
+        {
+            System.out.printf("%d is not a palindrome \n", firstValue);
+        }
+        drawStars();*/
+        
+        
+
+
+       
+  
+  
+}  
+}  
+        
+        
     
-}
+    
+
