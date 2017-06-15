@@ -156,10 +156,41 @@ public class Homework4 {
         {
             System.out.printf("%d is not a palindrome \n", firstValue);
         }
+        drawStars();
+        
+        System.out.println("Task 7");
+        System.out.println("Check weekday number. Sunday is beginning");
+        System.out.println("Please enter number");
+        firstValue = in.nextInt();
+        if (firstValue == 1)
+        {
+            System.out.println("Entered day is Sunday");
+        }
+            else if (firstValue == 2)
+            {
+                System.out.println("Entered day is Monday");
+            }
+                else if (firstValue == 3)
+                {
+                    System.out.println("Entered day is Tuesday");
+                }
+                    else if (firstValue == 4)
+                    {
+                        System.out.println("Entered day is Wednesday");
+                    }
+                        else if (firstValue == 5)
+                        {
+                            System.out.println("Entered day is Thursday");
+                        }
+                            else if (firstValue == 6)
+                            {
+                                System.out.println("Entered day is Friday");
+                            }
+                                else
+                                {
+                                    System.out.println("Entered day is Saturday");
+                                }
         drawStars();*/
-        
-        
-
 
        
   
