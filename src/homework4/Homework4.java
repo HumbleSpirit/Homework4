@@ -40,6 +40,7 @@ public class Homework4 {
         double calcValue2 = 0;
         double result1 = 0;
         String myString = "";
+        String myString2 = "";
         
         Scanner in = new Scanner(System.in); 
         /*System.out.println("Task 1");
@@ -215,14 +216,78 @@ public class Homework4 {
             else {
                 System.out.println("Your ticket is not lucky");
         }
-        drawStars();*/
+        drawStars();
         
         System.out.println("Task 9");  
         System.out.println("Let's find which playing card number is entered");  
-        System.out.println("Please input number from 0 to 36");
+        System.out.println("Please input number from 0 to 35");
+        String mySuite = "";
         firstValue = in.nextInt();
-        if (36 - firstValue <= 27)
-  
+        if (firstValue >= 28)
+        {
+            mySuite = "Clubs \u2663";
+        }
+        else if ((firstValue <= 27) && (firstValue > 18))
+        {
+            mySuite = "Diamonds \u2666";
+        }
+        else if ((firstValue <= 18) && (firstValue > 9))
+        {
+            mySuite = "Hearts \u2665";
+        }
+        else
+        {
+            mySuite = "Spades \u2660";
+        }
+        
+        
+        switch(firstValue % 9)
+        {
+            case 0:
+            {
+                myString2 = "A";
+                break;
+            }
+            case 1:
+            {
+                
+            }
+            case 2:
+            {
+                
+            }
+            case 3:
+            {
+                
+            }
+            case 4:
+            {
+                
+            }
+            case 5:
+            {
+                
+            }
+            case 6:
+            {
+                
+            }
+            case 7:
+            {
+                
+            }
+            case 8:
+            {
+                
+            }
+        }
+        
+        System.out.println(mySuite + myString2);*/
+        for (int i = 0; i < 9; ++i) {
+            
+            System.out.println(i%9);
+            
+        }
   
 }  
 }  
