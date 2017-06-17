@@ -43,7 +43,7 @@ public class Homework4 {
         String myString2 = "";
         
         Scanner in = new Scanner(System.in); 
-        /*System.out.println("Task 1");
+       /* System.out.println("Task 1");
         System.out.println("Find lesser value from two numbers");
         System.out.println("Please enter first number");
         firstValue = in.nextInt();  
@@ -117,7 +117,7 @@ public class Homework4 {
         drawStars();
         
         System.out.println("Task 4");
-        System.out.println("Check, if number is belongs to defined range");
+        System.out.println("Check, if number is belongs to defined range - 1 to 30");
         System.out.println("Please enter number");
         firstValue = in.nextInt(); 
         
@@ -192,13 +192,14 @@ public class Homework4 {
                                 {
                                     System.out.println("Entered day is Saturday");
                                 }
-        drawStars();
+        drawStars();*/
         
         
         System.out.println("Task 8");  
         System.out.println("Let's find - do you have a lucky ticket");  
         System.out.println("Please input line of 6 digits from your ticket ");
-        myString = in.nextLine();
+        Scanner inp = new Scanner(System.in);
+        myString = inp.nextLine();
         //Парсинг строки в числа по позициям - '0' - код символа, равный 48
         int a = myString.charAt(0)- '0';
         int b = myString.charAt(1)- '0';
@@ -224,7 +225,7 @@ public class Homework4 {
         String mySuite = "";
         firstValue = in.nextInt();
         
-        if (firstValue >= 27)
+        if (firstValue >= 27) // which suit are entered
         {
             mySuite = "\u2663 Clubs ";
         }
@@ -240,9 +241,8 @@ public class Homework4 {
         {
             mySuite = "\u2660 Spades ";
         }
-        
-        
-        switch(8 - ( firstValue % 9 ))
+
+        switch(8 - ( firstValue % 9 )) //Nominee of card
         {
             case 0:
             {
@@ -292,8 +292,26 @@ public class Homework4 {
         }
         
         System.out.println(myString2 + mySuite);
-        drawStars();*/
-  
+        drawStars();
+        
+        System.out.println("Task 10");
+        System.out.println("Lets find your ideal weight with recommendations");
+        System.out.println("Please enter your height");
+        firstValue = in.nextInt();
+        System.out.println("Please enter your weight");
+        secondValue = in.nextInt();
+        System.out.println("Your ideal weight is " + (firstValue - 110));
+        if ((firstValue - 110) < secondValue)
+        {
+            tempValue1 = (firstValue - 110)- secondValue;
+            System.out.println("You have to loss " + Math.abs(tempValue1) + " kilos");
+        }
+        else
+        {   tempValue1 = secondValue - (firstValue - 110);
+            System.out.println("You have to gain " + Math.abs(tempValue1) + " kilos");
+        }
+        drawStars();
+        
 }  
 }  
         
