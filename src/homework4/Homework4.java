@@ -223,71 +223,76 @@ public class Homework4 {
         System.out.println("Please input number from 0 to 35");
         String mySuite = "";
         firstValue = in.nextInt();
-        if (firstValue >= 28)
+        
+        if (firstValue >= 27)
         {
-            mySuite = "Clubs \u2663";
+            mySuite = "\u2663 Clubs ";
         }
-        else if ((firstValue <= 27) && (firstValue > 18))
+        else if ((firstValue < 27) && (firstValue >= 18))
         {
-            mySuite = "Diamonds \u2666";
+            mySuite = "\u2666 Diamonds ";
         }
-        else if ((firstValue <= 18) && (firstValue > 9))
+        else if ((firstValue <= 17) && (firstValue > 8))
         {
-            mySuite = "Hearts \u2665";
+            mySuite = "\u2665 Hearts ";
         }
         else
         {
-            mySuite = "Spades \u2660";
+            mySuite = "\u2660 Spades ";
         }
         
         
-        switch(firstValue % 9)
+        switch(8 - ( firstValue % 9 ))
         {
             case 0:
             {
-                myString2 = "A";
+                myString2 = "Ace of ";
                 break;
             }
             case 1:
             {
-                
+                myString2 = "King of ";
+                break;
             }
             case 2:
             {
-                
+                myString2 = "Queen of ";
+                break;
             }
             case 3:
             {
-                
+                myString2 = "Jack of ";
+                break;
             }
             case 4:
             {
-                
+                myString2 = "10 of ";
+                break;
             }
             case 5:
             {
-                
+                myString2 = "9 of ";
+                break;
             }
             case 6:
             {
-                
+                myString2 = "8 of ";
+                break;
             }
             case 7:
             {
-                
+                myString2 = "7 of ";
+                break;
             }
             case 8:
             {
-                
+                myString2 = "6 of ";
+                break;
             }
         }
         
-        System.out.println(mySuite + myString2);*/
-        for (int i = 0; i < 9; ++i) {
-            
-            System.out.println(i%9);
-            
-        }
+        System.out.println(myString2 + mySuite);
+        drawStars();*/
   
 }  
 }  
