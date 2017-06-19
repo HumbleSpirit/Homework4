@@ -36,6 +36,7 @@ public class Homework4 {
         int fifthValue = 0;
         int sixthValue = 0;
         int tempValue1 = 0;
+        int pointsValue = 0;
         double calcValue1 = 0;
         double calcValue2 = 0;
         double result1 = 0;
@@ -192,7 +193,7 @@ public class Homework4 {
                                 {
                                     System.out.println("Entered day is Saturday");
                                 }
-        drawStars();*/
+        drawStars();
         
         
         System.out.println("Task 8");  
@@ -310,9 +311,393 @@ public class Homework4 {
         {   tempValue1 = secondValue - (firstValue - 110);
             System.out.println("You have to gain " + Math.abs(tempValue1) + " kilos");
         }
-        drawStars();
+        drawStars();*/
+       
+       
+        System.out.println("Task 11");
+        System.out.println("Game - \"Who wants to be a millionarie\"");
+        System.out.println("You have to answer 15 questions");
+        System.out.println("After each right answer your points will be increased");
+        System.out.println("Costs of questions are: ");
+        System.out.println("1st question costs 500 points");
+        System.out.println("2nd question costs 1000 points");
+        System.out.println("3rd question costs 2000 points");
+        System.out.println("4th question costs 3000 points");
+        System.out.println("5th question costs 5000 points");
+        System.out.println("6th question costs 7500 points");
+        System.out.println("7th question costs 10000 points");
+        System.out.println("8th question costs 15000 points");
+        System.out.println("9th question costs 25000 points");
+        System.out.println("10th question costs 50000 points");
+        System.out.println("11th question costs 75000 points");
+        System.out.println("12th question costs 150000 points");
+        System.out.println("13th question costs 250000 points");
+        System.out.println("14th question costs 500000 points");
+        System.out.println("15th question costs 1000000 points\n\n");
         
-}  
+        System.out.println("1st question");
+        System.out.println("How many bits in byte?");
+        System.out.println("Press \"1\" for 2 bits");
+        System.out.println("Press \"2\" for 4 bits");
+        System.out.println("Press \"3\" for 6 bits");
+        System.out.println("Press \"4\" for 8 bits");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = 0;
+                break;
+            case 2:
+                pointsValue = 0;
+                break;
+            case 3:
+                pointsValue = 0;
+                break;
+            case 4:
+                pointsValue = pointsValue + 500;
+                break;
+        }
+        
+        System.out.println("2nd question");
+        System.out.println("How many bits in Java long primitive?");
+        System.out.println("Press \"1\" for 32 bits");
+        System.out.println("Press \"2\" for 64 bits");
+        System.out.println("Press \"3\" for 48 bits");
+        System.out.println("Press \"4\" for 128 bits");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue + 1000;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("3rd question");
+        System.out.println("How many bits in IPv4 address?");
+        System.out.println("Press \"1\" for 8 bits");
+        System.out.println("Press \"2\" for 16 bits");
+        System.out.println("Press \"3\" for 32 bits");
+        System.out.println("Press \"4\" for 4 bits");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue + 2000;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("4th question");
+        System.out.println("How many bits in IPv4 mask?");
+        System.out.println("Press \"1\" for 32 bits");
+        System.out.println("Press \"2\" for 0 bits");
+        System.out.println("Press \"3\" for 8 bits");
+        System.out.println("Press \"4\" for 4 bits");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue + 3000;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+                
+        System.out.println("5th question");
+        System.out.println("How many bits in IPv6 address?");
+        System.out.println("Press \"1\" for 32 bits");
+        System.out.println("Press \"2\" for 64 bits");
+        System.out.println("Press \"3\" for 128 bits");
+        System.out.println("Press \"4\" for 256 bits");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue + 5000;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("6th question");
+        System.out.println("How much max hops in standard Windows traceroute?");
+        System.out.println("Press \"1\" for 10 hops");
+        System.out.println("Press \"2\" for 30 hops");
+        System.out.println("Press \"3\" for 50 hops");
+        System.out.println("Press \"4\" for 100 hops");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue + 7500;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("th question");
+        System.out.println("?");
+        System.out.println("Press \"1\" for ");
+        System.out.println("Press \"2\" for ");
+        System.out.println("Press \"3\" for ");
+        System.out.println("Press \"4\" for ");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println(pointsValue);
+}
+    
 }  
         
         
