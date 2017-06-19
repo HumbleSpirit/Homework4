@@ -479,7 +479,7 @@ public class Homework4 {
                 break;
         }
         
-        System.out.println("th question");
+        System.out.println("7th question");
         System.out.println("?");
         System.out.println("Press \"1\" for ");
         System.out.println("Press \"2\" for ");
