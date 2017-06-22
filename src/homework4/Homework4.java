@@ -456,7 +456,7 @@ public class Homework4 {
         }
         
         System.out.println("6th question");
-        System.out.println("How much max hops in standard Windows traceroute?");
+        System.out.println("How many max hops in standard Windows traceroute?");
         System.out.println("Press \"1\" for 10 hops");
         System.out.println("Press \"2\" for 30 hops");
         System.out.println("Press \"3\" for 50 hops");
@@ -480,11 +480,133 @@ public class Homework4 {
         }
         
         System.out.println("7th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
+        System.out.println("How many max hops in RIPv2 routing protocol?");
+        System.out.println("Press \"1\" for 5 hops");
+        System.out.println("Press \"2\" for 10 hops");
+        System.out.println("Press \"3\" for 15 hops");
+        System.out.println("Press \"4\" for 30 hops");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue + 10000;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("8th question");
+        System.out.println("How much \"roughly\" 2^20 is?");
+        System.out.println("Press \"1\" for 40000");
+        System.out.println("Press \"2\" for 100000");
+        System.out.println("Press \"3\" for 1000000");
+        System.out.println("Press \"4\" for 1000000000");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue + 15000;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("9th question");
+        System.out.println("Which of following protocols are examples of TCP/IP  transport layer protocols?");
+        System.out.println("Press \"1\" for UDP");
+        System.out.println("Press \"2\" for Ethernet");
+        System.out.println("Press \"3\" for IP");
+        System.out.println("Press \"4\" for HTTP");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue + 25000;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("10th question");
+        System.out.println("Which of following are private IP networks?");
+        System.out.println("Press \"1\" for 172.31.0.0");
+        System.out.println("Press \"2\" for 11.0.0.0");
+        System.out.println("Press \"3\" for 192.1.168.0");
+        System.out.println("Press \"4\" for 224.64.0.0");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue + 50000;
+                break;
+            case 2:
+                pointsValue = pointsValue;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("11th question");
+        System.out.println("In a LAN, which of the following terms best equates to the term VLAN?");
+        System.out.println("Press \"1\" for Collision domain");
+        System.out.println("Press \"2\" for Broadcast domain");
+        System.out.println("Press \"3\" for Subnet domain");
+        System.out.println("Press \"4\" for Switch domain");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue + 75000;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("12th question");
+        System.out.println("A PC user turns on her computer, and as soon as the computer is up \n"
+                + " and working, she opens a web browser to browse http://www.google.com. "
+                + "Which protocol(s) would deﬁnitely NOT be used by the PC during this process??");
+        System.out.println("Press \"1\" for DNS");
+        System.out.println("Press \"2\" for DHCP");
+        System.out.println("Press \"3\" for ARP");
+        System.out.println("Press \"4\" for ICMP");
         firstValue = in.nextInt();
         
         switch(firstValue)
@@ -499,22 +621,46 @@ public class Homework4 {
                 pointsValue = pointsValue;
                 break;
             case 4:
-                pointsValue = pointsValue;
+                pointsValue = pointsValue + 150000;
                 break;
         }
         
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
+        System.out.println("13th question");
+        System.out.println("How old Odessa is ?");
+        System.out.println("Press \"1\" for 18");
+        System.out.println("Press \"2\" for 221");
+        System.out.println("Press \"3\" for 602");
+        System.out.println("Press \"4\" for 2017");
         firstValue = in.nextInt();
         
         switch(firstValue)
         {
             case 1:
                 pointsValue = pointsValue;
+                break;
+            case 2:
+                pointsValue = pointsValue + 250000;
+                break;
+            case 3:
+                pointsValue = pointsValue;
+                break;
+            case 4:
+                pointsValue = pointsValue;
+                break;
+        }
+        
+        System.out.println("14th question");
+        System.out.println("How many unique AS (Autonomous system) are available?");
+        System.out.println("Press \"1\" for 65536");
+        System.out.println("Press \"2\" for 1024");
+        System.out.println("Press \"3\" for 8192");
+        System.out.println("Press \"4\" for 32768");
+        firstValue = in.nextInt();
+        
+        switch(firstValue)
+        {
+            case 1:
+                pointsValue = pointsValue + 500000;
                 break;
             case 2:
                 pointsValue = pointsValue;
@@ -527,12 +673,12 @@ public class Homework4 {
                 break;
         }
         
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
+        System.out.println("14th question");
+        System.out.println("How many teeth do cats have?");
+        System.out.println("Press \"1\" for 36");
+        System.out.println("Press \"2\" for 42");
+        System.out.println("Press \"3\" for 30");
+        System.out.println("Press \"4\" for 28");
         firstValue = in.nextInt();
         
         switch(firstValue)
@@ -544,158 +690,15 @@ public class Homework4 {
                 pointsValue = pointsValue;
                 break;
             case 3:
-                pointsValue = pointsValue;
+                pointsValue = pointsValue + 1000000;
                 break;
             case 4:
                 pointsValue = pointsValue;
                 break;
         }
         
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println("th question");
-        System.out.println("?");
-        System.out.println("Press \"1\" for ");
-        System.out.println("Press \"2\" for ");
-        System.out.println("Press \"3\" for ");
-        System.out.println("Press \"4\" for ");
-        firstValue = in.nextInt();
-        
-        switch(firstValue)
-        {
-            case 1:
-                pointsValue = pointsValue;
-                break;
-            case 2:
-                pointsValue = pointsValue;
-                break;
-            case 3:
-                pointsValue = pointsValue;
-                break;
-            case 4:
-                pointsValue = pointsValue;
-                break;
-        }
-        
-        System.out.println(pointsValue);
+        System.out.println("You are earned " + pointsValue + " points");
+        System.out.println("Max points are 2094000");
 }
     
 }  
